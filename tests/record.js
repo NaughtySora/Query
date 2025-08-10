@@ -5,7 +5,7 @@ const { describe, it } = require("node:test");
 const Record = require("../lib/Record.js");
 const { btc, mock } = require("./mocks/objects.json");
 
-describe("units", () => {
+describe("Record: units", () => {
   it("pick", () => {
     const statistics = new Record("statistics")
       .pick(["price", "priceChangePercentage24h", "rank"]);
@@ -128,7 +128,7 @@ describe("units", () => {
 
   it("unwrap", () => {
     const stats = new Record("statistics").pick(["price"]);
-    const data = new Record("data").unwrap(stats)
+    const data = new Record("data").unwrap(stats);
     const rec = new Record().unwrap(data);
     assert.deepStrictEqual(
       rec.process(btc),
