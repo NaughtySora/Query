@@ -72,7 +72,7 @@ describe("Query: units", () => {
 
   it("add", () => {
     const mocks = [{ a: 1, b: 2 }, { a: 2, b: 2 }, { a: 4, b: 2 }];
-    new Query().add([{ key: "c", map: () => 42 }]).process(mocks).forEach(item => {
+    new Query().add({ c: () => 42 }).process(mocks).forEach(item => {
       assert.strictEqual(item.a, undefined);
       assert.strictEqual(item.b, undefined);
       assert.strictEqual(item.c, 42);
