@@ -128,7 +128,7 @@ describe("Record: units", () => {
 
   it("unwrap", () => {
     const stats = new Record("statistics").pick(["price"]);
-    const data = new Record("data").unwrap(stats)
+    const data = new Record("data").unwrap(stats);
     const rec = new Record().unwrap(data);
     assert.deepStrictEqual(
       rec.process(btc),
