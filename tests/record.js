@@ -113,12 +113,12 @@ describe("Record: units", () => {
   });
 
   it("add", () => {
-    const rec = new Record().add([
-      { key: "smth", map() { return 1 } },
-      { key: "key", map() { return "value" } },
-      { key: "category", map(data) { return data.category } },
-      { key: "key2", map(data) { return data.key + "--" } },
-    ]);
+    const rec = new Record().add({
+      smth: () => 1,
+      key: () => "value",
+      category: (data) => data.category,
+      key2: (data) => data.key + "--"
+    });
     const res = rec.process(mock);
     assert.strictEqual(res.smth, 1);
     assert.strictEqual(res.key, "value");
@@ -157,9 +157,9 @@ it("integration", () => {
 
   const data = new Record("data")
     .pick(["id", "name"]).unwrap(stats)
-    .add([{
-      key: "important", map: (data) => external.get(data.symbol),
-    }]);
+    .add({
+      important: (data) => external.get(data.symbol),
+    });
 
   const rec = new Record().unwrap(data);
   const res = rec.process(btc);
