@@ -127,12 +127,9 @@ describe("units", () => {
   });
 
   it("unwrap", () => {
-    const rec = new Record()
-      .unwrap(
-        new Record("data")
-          .unwrap(
-            new Record("statistics").pick(["price"]),
-          ),);
+    const stats = new Record("statistics").pick(["price"]);
+    const data = new Record("data").unwrap(stats)
+    const rec = new Record().unwrap(data);
     assert.deepStrictEqual(
       rec.process(btc),
       { price: btc.data.statistics.price }
@@ -145,35 +142,34 @@ describe("units", () => {
   });
 });
 
-// const statistics = new Record("statistics")
-//   .pick(["price", "rank", "totalSupply"])
-//   .rename({ totalSupply: "supply" });
 
-// const data = new Record("data")
-//   .pick(["id", "symbol"])
-//   .rename({ id: "_id" })
-//   .map({ _id: (id) => `-${id}-hello` })
-//   .unwrap(statistics);
+it("integration", () => {
+  const external = new Map([["BTC", 42]]);
 
-// const r = new Record("Bitcoin")
-//   .unwrap(data, statistics);
+  const stats = new Record("statistics")
+    .pick(["price", "marketCap", "rank", "not_exists"])
+    .rename({ marketCap: "cap", })
+    .defaults({ not_exists: "default value" })
+    .map({
+      price: (p) => Math.floor(p),
+      cap: (c) => c.toString(),
+    });
 
-// const mapped = r.process(btc);
+  const data = new Record("data")
+    .pick(["id", "name"]).unwrap(stats)
+    .add([{
+      key: "important", map: (data) => external.get(data.symbol),
+    }]);
 
-// // const mapped2 = {
-// //   _id: `-${btc.data.id}-hello`,
-// //   symbol: btc.data.symbol,
-// //   price: btc.data.statistics.price,
-// //   rank: btc.data.statistics.rank,
-// //   supply: btc.data.statistics.maxSupply,
-// // };
-
-// const r2 = new Record().pick([0, 1])
-
-// const mapped3 = r2.process([1, 2, 3, 4, 5, 6]);
-
-// console.log({
-//   mapped,
-//   // mapped2,
-//   mapped3,
-// })
+  const rec = new Record().unwrap(data);
+  const res = rec.process(btc);
+  assert.deepStrictEqual(res, {
+    id: 1,
+    name: 'Bitcoin',
+    price: 118794,
+    cap: '2364530652737.9',
+    rank: 1,
+    not_exists: 'default value',
+    important: 42
+  });
+});
