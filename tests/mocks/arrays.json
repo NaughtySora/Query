@@ -1,0 +1,962 @@
+{
+  "mostBullish": [
+    {
+      "id": 7083,
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "slug": "uniswap",
+      "rank": 1,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 21952,
+      "bearishVotes": 6074,
+      "bullishRate": "90.2",
+      "bearishRate": "9.8",
+      "votes": 623240,
+      "voteChange": 90.2,
+      "priceChange": {
+        "price": "10.989231829818893000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 9481,
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "slug": "pendle",
+      "rank": 2,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 11492,
+      "bearishVotes": 1117,
+      "bullishRate": "89.8",
+      "bearishRate": "10.2",
+      "votes": 23690,
+      "voteChange": 89.8,
+      "priceChange": {
+        "price": "5.449295991550832000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 20396,
+      "name": "Kaspa",
+      "symbol": "KAS",
+      "slug": "kaspa",
+      "rank": 3,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 168196,
+      "bearishVotes": 20825,
+      "bullishRate": "88.1",
+      "bearishRate": "11.9",
+      "votes": 330103,
+      "voteChange": 88.1,
+      "priceChange": {
+        "price": "0.093771717935236210000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 52,
+      "name": "XRP",
+      "symbol": "XRP",
+      "slug": "xrp",
+      "rank": 4,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 524073,
+      "bearishVotes": 73191,
+      "bullishRate": "87.4",
+      "bearishRate": "12.6",
+      "votes": 1352817,
+      "voteChange": 87.4,
+      "priceChange": {
+        "price": "3.199615579933402000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 6719,
+      "name": "The Graph",
+      "symbol": "GRT",
+      "slug": "the-graph",
+      "rank": 5,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 19231,
+      "bearishVotes": 3254,
+      "bullishRate": "85.6",
+      "bearishRate": "14.4",
+      "votes": 43423,
+      "voteChange": 85.6,
+      "priceChange": {
+        "price": "0.098085732145485830000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 512,
+      "name": "Stellar",
+      "symbol": "XLM",
+      "slug": "stellar",
+      "rank": 6,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 65098,
+      "bearishVotes": 10908,
+      "bullishRate": "85.3",
+      "bearishRate": "14.7",
+      "votes": 151210,
+      "voteChange": 85.3,
+      "priceChange": {
+        "price": "0.442295510977650200000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 4030,
+      "name": "Algorand",
+      "symbol": "ALGO",
+      "slug": "algorand",
+      "rank": 7,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 45424,
+      "bearishVotes": 7144,
+      "bullishRate": "85.3",
+      "bearishRate": "14.7",
+      "votes": 104170,
+      "voteChange": 85.3,
+      "priceChange": {
+        "price": "0.264880060212711600000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 21159,
+      "name": "Ondo",
+      "symbol": "ONDO",
+      "slug": "ondo-finance",
+      "rank": 8,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 59772,
+      "bearishVotes": 9630,
+      "bullishRate": "85.2",
+      "bearishRate": "14.8",
+      "votes": 124567,
+      "voteChange": 85.2,
+      "priceChange": {
+        "price": "1.024014743393735400000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 3773,
+      "name": "Artificial Superintelligence Alliance",
+      "symbol": "FET",
+      "slug": "artificial-superintelligence-alliance",
+      "rank": 9,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 59597,
+      "bearishVotes": 9251,
+      "bullishRate": "85.0",
+      "bearishRate": "15.0",
+      "votes": 121585,
+      "voteChange": 85.0,
+      "priceChange": {
+        "price": "0.710542961140864600000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 7080,
+      "name": "Gala",
+      "symbol": "GALA",
+      "slug": "gala",
+      "rank": 10,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 38751,
+      "bearishVotes": 6782,
+      "bullishRate": "84.7",
+      "bearishRate": "15.3",
+      "votes": 81778,
+      "voteChange": 84.7,
+      "priceChange": {
+        "price": "0.017560421387061747000000",
+        "change": ""
+      }
+    }
+  ],
+  "mostBearish": [
+    {
+      "id": 33597,
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "slug": "fartcoin",
+      "rank": 1,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 30999,
+      "bearishVotes": 14115,
+      "bullishRate": "0.4",
+      "bearishRate": "99.6",
+      "votes": 13707287,
+      "voteChange": 99.6,
+      "priceChange": {
+        "price": "1.081512788080245000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 3635,
+      "name": "Cronos",
+      "symbol": "CRO",
+      "slug": "cronos",
+      "rank": 2,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 40453,
+      "bearishVotes": 6950,
+      "bullishRate": "15.7",
+      "bearishRate": "84.3",
+      "votes": 463807,
+      "voteChange": 84.3,
+      "priceChange": {
+        "price": "0.160213670359397800000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 23095,
+      "name": "Bonk",
+      "symbol": "BONK",
+      "slug": "bonk1",
+      "rank": 3,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 62909,
+      "bearishVotes": 10824,
+      "bullishRate": "19.1",
+      "bearishRate": "80.9",
+      "votes": 611265,
+      "voteChange": 80.9,
+      "priceChange": {
+        "price": "0.000027002120236677910000",
+        "change": ""
+      }
+    },
+    {
+      "id": 35697,
+      "name": "Pi",
+      "symbol": "PI",
+      "slug": "pi",
+      "rank": 4,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 407262,
+      "bearishVotes": 55080,
+      "bullishRate": "24.0",
+      "bearishRate": "76.0",
+      "votes": 4234256,
+      "voteChange": 76.0,
+      "priceChange": {
+        "price": "0.393415588318759100000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 74,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "slug": "dogecoin",
+      "rank": 5,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 165065,
+      "bearishVotes": 27471,
+      "bullishRate": "25.5",
+      "bearishRate": "74.5",
+      "votes": 1471267,
+      "voteChange": 74.5,
+      "priceChange": {
+        "price": "0.233894071024011020000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 5994,
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "slug": "shiba-inu",
+      "rank": 6,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 121673,
+      "bearishVotes": 17513,
+      "bullishRate": "27.1",
+      "bearishRate": "72.9",
+      "votes": 1036553,
+      "voteChange": 72.9,
+      "priceChange": {
+        "price": "0.000013517190358844764000",
+        "change": ""
+      }
+    },
+    {
+      "id": 35336,
+      "name": "OFFICIAL TRUMP",
+      "symbol": "TRUMP",
+      "slug": "official-trump",
+      "rank": 7,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 165826,
+      "bearishVotes": 89926,
+      "bullishRate": "27.5",
+      "bearishRate": "72.5",
+      "votes": 1116679,
+      "voteChange": 72.5,
+      "priceChange": {
+        "price": "9.369970398141072000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 28752,
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "slug": "dogwifhat",
+      "rank": 8,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 37175,
+      "bearishVotes": 10109,
+      "bullishRate": "34.2",
+      "bearishRate": "65.8",
+      "votes": 212678,
+      "voteChange": 65.8,
+      "priceChange": {
+        "price": "0.988971689369942600000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 24478,
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "slug": "pepe",
+      "rank": 9,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 167711,
+      "bearishVotes": 25182,
+      "bullishRate": "34.6",
+      "bearishRate": "65.4",
+      "votes": 982712,
+      "voteChange": 65.4,
+      "priceChange": {
+        "price": "0.000012022147615602934000",
+        "change": ""
+      }
+    },
+    {
+      "id": 10804,
+      "name": "FLOKI",
+      "symbol": "FLOKI",
+      "slug": "floki-inu",
+      "rank": 10,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 47676,
+      "bearishVotes": 9062,
+      "bullishRate": "40.5",
+      "bearishRate": "59.5",
+      "votes": 221117,
+      "voteChange": 59.5,
+      "priceChange": {
+        "price": "0.000117535906733748050000",
+        "change": ""
+      }
+    }
+  ],
+  "topGainerInBullishVotes": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "rank": 1,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 927203,
+      "bearishVotes": 200639,
+      "bullishRate": "47.3",
+      "bearishRate": "52.7",
+      "votes": 4505600,
+      "voteChange": 47.3,
+      "priceChange": {
+        "price": "118719.494629584510000000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 52,
+      "name": "XRP",
+      "symbol": "XRP",
+      "slug": "xrp",
+      "rank": 2,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 524073,
+      "bearishVotes": 73191,
+      "bullishRate": "87.4",
+      "bearishRate": "12.6",
+      "votes": 1352817,
+      "voteChange": 87.4,
+      "priceChange": {
+        "price": "3.199615579933402000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 35697,
+      "name": "Pi",
+      "symbol": "PI",
+      "slug": "pi",
+      "rank": 3,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 407262,
+      "bearishVotes": 55080,
+      "bullishRate": "24.0",
+      "bearishRate": "76.0",
+      "votes": 4234256,
+      "voteChange": 24.0,
+      "priceChange": {
+        "price": "0.393415588318759100000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "rank": 4,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 326120,
+      "bearishVotes": 72048,
+      "bullishRate": "71.4",
+      "bearishRate": "28.6",
+      "votes": 1578423,
+      "voteChange": 71.4,
+      "priceChange": {
+        "price": "4217.673609622446000000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 5426,
+      "name": "Solana",
+      "symbol": "SOL",
+      "slug": "solana",
+      "rank": 5,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 216480,
+      "bearishVotes": 39414,
+      "bullishRate": "83.1",
+      "bearishRate": "16.9",
+      "votes": 636073,
+      "voteChange": 83.1,
+      "priceChange": {
+        "price": "181.916935110045800000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 20396,
+      "name": "Kaspa",
+      "symbol": "KAS",
+      "slug": "kaspa",
+      "rank": 6,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 168196,
+      "bearishVotes": 20825,
+      "bullishRate": "88.1",
+      "bearishRate": "11.9",
+      "votes": 330103,
+      "voteChange": 88.1,
+      "priceChange": {
+        "price": "0.093771717935236210000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 24478,
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "slug": "pepe",
+      "rank": 7,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 167711,
+      "bearishVotes": 25182,
+      "bullishRate": "34.6",
+      "bearishRate": "65.4",
+      "votes": 982712,
+      "voteChange": 34.6,
+      "priceChange": {
+        "price": "0.000012022147615602934000",
+        "change": ""
+      }
+    },
+    {
+      "id": 35336,
+      "name": "OFFICIAL TRUMP",
+      "symbol": "TRUMP",
+      "slug": "official-trump",
+      "rank": 8,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 165826,
+      "bearishVotes": 89926,
+      "bullishRate": "27.5",
+      "bearishRate": "72.5",
+      "votes": 1116679,
+      "voteChange": 27.5,
+      "priceChange": {
+        "price": "9.369970398141072000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 74,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "slug": "dogecoin",
+      "rank": 9,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 165065,
+      "bearishVotes": 27471,
+      "bullishRate": "25.5",
+      "bearishRate": "74.5",
+      "votes": 1471267,
+      "voteChange": 25.5,
+      "priceChange": {
+        "price": "0.233894071024011020000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 2010,
+      "name": "Cardano",
+      "symbol": "ADA",
+      "slug": "cardano",
+      "rank": 10,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 149853,
+      "bearishVotes": 19419,
+      "bullishRate": "68.7",
+      "bearishRate": "31.3",
+      "votes": 1142291,
+      "voteChange": 68.7,
+      "priceChange": {
+        "price": "0.802561761105731200000000",
+        "change": ""
+      }
+    }
+  ],
+  "topGainerInBearishVotes": [
+    {
+      "id": 34466,
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "slug": "pudgy-penguins",
+      "rank": 1,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 52842,
+      "bearishVotes": 19315,
+      "bullishRate": "50.6",
+      "bearishRate": "49.4",
+      "votes": 320030,
+      "voteChange": -49.4,
+      "priceChange": {
+        "price": "0.038893895665112230000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 20947,
+      "name": "Sui",
+      "symbol": "SUI",
+      "slug": "sui",
+      "rank": 2,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 103330,
+      "bearishVotes": 18992,
+      "bullishRate": "83.8",
+      "bearishRate": "16.2",
+      "votes": 236589,
+      "voteChange": -16.2,
+      "priceChange": {
+        "price": "3.849333524506010000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 5994,
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "slug": "shiba-inu",
+      "rank": 3,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 121673,
+      "bearishVotes": 17513,
+      "bullishRate": "27.1",
+      "bearishRate": "72.9",
+      "votes": 1036553,
+      "voteChange": -72.9,
+      "priceChange": {
+        "price": "0.000013517190358844764000",
+        "change": ""
+      }
+    },
+    {
+      "id": 33597,
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "slug": "fartcoin",
+      "rank": 4,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 30999,
+      "bearishVotes": 14115,
+      "bullishRate": "0.4",
+      "bearishRate": "99.6",
+      "votes": 13707287,
+      "voteChange": -99.6,
+      "priceChange": {
+        "price": "1.081512788080245000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 4642,
+      "name": "Hedera",
+      "symbol": "HBAR",
+      "slug": "hedera",
+      "rank": 5,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 100109,
+      "bearishVotes": 13803,
+      "bullishRate": "61.9",
+      "bearishRate": "38.1",
+      "votes": 909554,
+      "voteChange": -38.1,
+      "priceChange": {
+        "price": "0.259666063928945530000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 11419,
+      "name": "Toncoin",
+      "symbol": "TON",
+      "slug": "toncoin",
+      "rank": 6,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 45832,
+      "bearishVotes": 12414,
+      "bullishRate": "78.7",
+      "bearishRate": "21.3",
+      "votes": 121311,
+      "voteChange": -21.3,
+      "priceChange": {
+        "price": "3.322539661347291000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 6636,
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "slug": "polkadot-new",
+      "rank": 7,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 64611,
+      "bearishVotes": 11636,
+      "bullishRate": "61.2",
+      "bearishRate": "38.8",
+      "votes": 866105,
+      "voteChange": -38.8,
+      "priceChange": {
+        "price": "4.052406089735968000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 32196,
+      "name": "Hyperliquid",
+      "symbol": "HYPE",
+      "slug": "hyperliquid",
+      "rank": 8,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 22932,
+      "bearishVotes": 11551,
+      "bullishRate": "65.1",
+      "bearishRate": "34.9",
+      "votes": 56760,
+      "voteChange": -34.9,
+      "priceChange": {
+        "price": "44.240000216006614000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 512,
+      "name": "Stellar",
+      "symbol": "XLM",
+      "slug": "stellar",
+      "rank": 9,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 65098,
+      "bearishVotes": 10908,
+      "bullishRate": "85.3",
+      "bearishRate": "14.7",
+      "votes": 151210,
+      "voteChange": -14.7,
+      "priceChange": {
+        "price": "0.442295510977650200000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 23095,
+      "name": "Bonk",
+      "symbol": "BONK",
+      "slug": "bonk1",
+      "rank": 10,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 62909,
+      "bearishVotes": 10824,
+      "bullishRate": "19.1",
+      "bearishRate": "80.9",
+      "votes": 611265,
+      "voteChange": -80.9,
+      "priceChange": {
+        "price": "0.000027002120236677910000",
+        "change": ""
+      }
+    }
+  ],
+  "mostVotes": [
+    {
+      "id": 33597,
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "slug": "fartcoin",
+      "rank": 1,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 30999,
+      "bearishVotes": 14115,
+      "bullishRate": "0.4",
+      "bearishRate": "99.6",
+      "votes": 13707287,
+      "voteChange": 0.4,
+      "priceChange": {
+        "price": "1.081512788080245000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "rank": 2,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 927203,
+      "bearishVotes": 200639,
+      "bullishRate": "47.3",
+      "bearishRate": "52.7",
+      "votes": 4505600,
+      "voteChange": 47.3,
+      "priceChange": {
+        "price": "118719.494629584510000000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 35697,
+      "name": "Pi",
+      "symbol": "PI",
+      "slug": "pi",
+      "rank": 3,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 407262,
+      "bearishVotes": 55080,
+      "bullishRate": "24.0",
+      "bearishRate": "76.0",
+      "votes": 4234256,
+      "voteChange": 24.0,
+      "priceChange": {
+        "price": "0.393415588318759100000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "rank": 4,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 326120,
+      "bearishVotes": 72048,
+      "bullishRate": "71.4",
+      "bearishRate": "28.6",
+      "votes": 1578423,
+      "voteChange": 71.4,
+      "priceChange": {
+        "price": "4217.673609622446000000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 74,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "slug": "dogecoin",
+      "rank": 5,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 165065,
+      "bearishVotes": 27471,
+      "bullishRate": "25.5",
+      "bearishRate": "74.5",
+      "votes": 1471267,
+      "voteChange": 25.5,
+      "priceChange": {
+        "price": "0.233894071024011020000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 52,
+      "name": "XRP",
+      "symbol": "XRP",
+      "slug": "xrp",
+      "rank": 6,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 524073,
+      "bearishVotes": 73191,
+      "bullishRate": "87.4",
+      "bearishRate": "12.6",
+      "votes": 1352817,
+      "voteChange": 87.4,
+      "priceChange": {
+        "price": "3.199615579933402000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 2010,
+      "name": "Cardano",
+      "symbol": "ADA",
+      "slug": "cardano",
+      "rank": 7,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 149853,
+      "bearishVotes": 19419,
+      "bullishRate": "68.7",
+      "bearishRate": "31.3",
+      "votes": 1142291,
+      "voteChange": 68.7,
+      "priceChange": {
+        "price": "0.802561761105731200000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 35336,
+      "name": "OFFICIAL TRUMP",
+      "symbol": "TRUMP",
+      "slug": "official-trump",
+      "rank": 8,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 165826,
+      "bearishVotes": 89926,
+      "bullishRate": "27.5",
+      "bearishRate": "72.5",
+      "votes": 1116679,
+      "voteChange": 27.5,
+      "priceChange": {
+        "price": "9.369970398141072000000000",
+        "change": ""
+      }
+    },
+    {
+      "id": 5994,
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "slug": "shiba-inu",
+      "rank": 9,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 121673,
+      "bearishVotes": 17513,
+      "bullishRate": "27.1",
+      "bearishRate": "72.9",
+      "votes": 1036553,
+      "voteChange": 27.1,
+      "priceChange": {
+        "price": "0.000013517190358844764000",
+        "change": ""
+      }
+    },
+    {
+      "id": 24478,
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "slug": "pepe",
+      "rank": 10,
+      "votable": true,
+      "myVote": "",
+      "bullishVotes": 167711,
+      "bearishVotes": 25182,
+      "bullishRate": "34.6",
+      "bearishRate": "65.4",
+      "votes": 982712,
+      "voteChange": 34.6,
+      "priceChange": {
+        "price": "0.000012022147615602934000",
+        "change": ""
+      }
+    }
+  ]
+}
