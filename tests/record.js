@@ -5,7 +5,7 @@ const { describe, it } = require("node:test");
 const Record = require("../lib/Record.js");
 const { btc, mock } = require("./mocks/objects.json");
 
-describe("units", () => {
+describe("Record: units", () => {
   it("pick", () => {
     const statistics = new Record("statistics")
       .pick(["price", "priceChangePercentage24h", "rank"]);

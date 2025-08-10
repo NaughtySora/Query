@@ -4,7 +4,7 @@ const assert = require("node:assert");
 const { describe, it } = require("node:test");
 const Query = require("../lib/Query.js");
 
-describe("units", () => {
+describe("Query: units", () => {
   it("take");
   it("narrow");
   it("transform");
