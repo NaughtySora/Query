@@ -1,0 +1,33 @@
+{
+  "btc": {
+    "data": {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "status": "active",
+      "watchCount": "6020030",
+      "volume": 61592783900.57667542,
+      "statistics": {
+        "price": 118794.130994787900000000000000,
+        "priceChangePercentage24h": 1.65099539,
+        "marketCap": 2364530652737.90,
+        "circulatingSupply": 19904440.00000000,
+        "totalSupply": 19904440.00000000,
+        "maxSupply": 21000000.00000000,
+        "rank": 1
+      }
+    },
+    "status": {
+      "timestamp": "2025-08-10T14:46:46.255Z",
+      "error_code": "0",
+      "error_message": "SUCCESS",
+      "elapsed": "3",
+      "credit_count": 0
+    }
+  },
+  "mock": {
+    "key": "value",
+    "category": null
+  }
+}
