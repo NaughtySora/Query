@@ -7,6 +7,12 @@
   "scripts": {
     "test": "node ./tests/index.js"
   },
+  "files": [
+    "lib/",
+    "main.d.ts"
+  ],
+  "exports": "./main.js",
+  "types": "./main.d.ts",
   "homepage": "https://github.com/NaughtySora/Query#readme",
   "bugs": {
     "url": "https://github.com/NaughtySora/Query/issues"
