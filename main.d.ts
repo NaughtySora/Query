@@ -12,7 +12,7 @@ export class Record {
   get name(): string;
 }
 
-type Aggregations = "avg" | "sum" | "min" | "max" | "count";
+type Aggregation = "avg" | "sum" | "min" | "max" | "count";
 
 export class Query {
   process(dataset: any[]): any;
@@ -23,7 +23,7 @@ export class Query {
   add(options: Parameters<Record["add"]>): this;
   pick(options: Parameters<Record["pick"]>): this;
   omit(fields: Parameters<Record["omit"]>): this;
-  aggregate(kind: Aggregations, field: string): this;
+  aggregate(kind: Aggregation, field: string): this;
   aggregate(kind: "count"): this;
   defaults(value: Parameters<Record["defaults"]>): this;
   map(value: Parameters<Record["map"]>): this;
