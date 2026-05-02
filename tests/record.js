@@ -1,6 +1,6 @@
 "use strict";
 
-const assert = require("node:assert");
+const assert = require("node:assert/strict");
 const { describe, it } = require("node:test");
 const Record = require("../lib/Record.js");
 const { btc, mock } = require("./mocks/objects.json");
@@ -10,31 +10,31 @@ describe("Record: units", () => {
     const statistics = new Record("statistics")
       .pick(["price", "priceChangePercentage24h", "rank"]);
     const res = statistics.process(btc.data.statistics);
-    assert.strictEqual(res.price, btc.data.statistics.price);
-    assert.strictEqual(
+    assert.equal(res.price, btc.data.statistics.price);
+    assert.equal(
       res.priceChangePercentage24h,
       btc.data.statistics.priceChangePercentage24h
     );
-    assert.strictEqual(res.rank, btc.data.statistics.rank);
+    assert.equal(res.rank, btc.data.statistics.rank);
   });
 
   it("omit", () => {
     const statistics = new Record("statistics")
       .omit(["price", "priceChangePercentage24h", "rank"]);
     const res = statistics.process(btc.data.statistics);
-    assert.strictEqual(res.rank, undefined);
-    assert.strictEqual(res.price, undefined);
-    assert.strictEqual(
+    assert.equal(res.rank, undefined);
+    assert.equal(res.price, undefined);
+    assert.equal(
       res.priceChangePercentage24h,
       undefined
     );
-    assert.strictEqual(res.maxSupply, btc.data.statistics.maxSupply);
-    assert.strictEqual(res.totalSupply, btc.data.statistics.totalSupply);
-    assert.strictEqual(
+    assert.equal(res.maxSupply, btc.data.statistics.maxSupply);
+    assert.equal(res.totalSupply, btc.data.statistics.totalSupply);
+    assert.equal(
       res.circulatingSupply,
       btc.data.statistics.circulatingSupply
     );
-    assert.strictEqual(res.marketCap, btc.data.statistics.marketCap);
+    assert.equal(res.marketCap, btc.data.statistics.marketCap);
   });
 
   describe("pick and omit", () => {
@@ -56,10 +56,10 @@ describe("Record: units", () => {
         .pick(["marketCap", "circulatingSupply"])
         .rename({ marketCap: "cap", circulatingSupply: "supply" });
       const res = statistics.process(btc.data.statistics);
-      assert.strictEqual(res.cap, btc.data.statistics.marketCap);
-      assert.strictEqual(res.supply, btc.data.statistics.circulatingSupply);
-      assert.strictEqual(res.marketCap, undefined);
-      assert.strictEqual(res.circulatingSupply, undefined);
+      assert.equal(res.cap, btc.data.statistics.marketCap);
+      assert.equal(res.supply, btc.data.statistics.circulatingSupply);
+      assert.equal(res.marketCap, undefined);
+      assert.equal(res.circulatingSupply, undefined);
     });
 
     it("omit", () => {
@@ -67,13 +67,13 @@ describe("Record: units", () => {
         .omit(["price", "priceChangePercentage24h", "marketCap", "circulatingSupply"])
         .rename({ totalSupply: "total", maxSupply: "max", rank: "tier" });
       const res = statistics.process(btc.data.statistics);
-      assert.strictEqual(res.total, btc.data.statistics.totalSupply);
-      assert.strictEqual(res.max, btc.data.statistics.maxSupply);
-      assert.strictEqual(res.tier, btc.data.statistics.rank);
-      assert.strictEqual(res.price, undefined);
-      assert.strictEqual(res.priceChangePercentage24h, undefined);
-      assert.strictEqual(res.marketCap, undefined);
-      assert.strictEqual(res.circulatingSupply, undefined);
+      assert.equal(res.total, btc.data.statistics.totalSupply);
+      assert.equal(res.max, btc.data.statistics.maxSupply);
+      assert.equal(res.tier, btc.data.statistics.rank);
+      assert.equal(res.price, undefined);
+      assert.equal(res.priceChangePercentage24h, undefined);
+      assert.equal(res.marketCap, undefined);
+      assert.equal(res.circulatingSupply, undefined);
     });
   });
 
@@ -83,14 +83,14 @@ describe("Record: units", () => {
         .pick(["timestamp"])
         .map({ timestamp: Date.parse });
       const res = status.process(btc.status);
-      assert.strictEqual(res.timestamp, Date.parse(btc.status.timestamp));
+      assert.equal(res.timestamp, Date.parse(btc.status.timestamp));
     });
     it("omit", () => {
       const status = new Record()
         .omit(["timestamp"])
         .map({ error_code: parseInt });
       const res = status.process(btc.status);
-      assert.strictEqual(res.error_code, 0);
+      assert.equal(res.error_code, 0);
     });
   });
 
@@ -100,7 +100,7 @@ describe("Record: units", () => {
         .pick(["key"])
         .defaults({ key: "value" });
       const res = status.process(btc.status);
-      assert.strictEqual(res.key, "value");
+      assert.equal(res.key, "value");
     });
     it("omit", () => {
       const category = { a: 1 };
@@ -108,7 +108,7 @@ describe("Record: units", () => {
         .omit(["key",])
         .defaults({ category });
       const res = rec.process(mock);
-      assert.strictEqual(res.category, category);
+      assert.equal(res.category, category);
     });
   });
 
@@ -120,17 +120,17 @@ describe("Record: units", () => {
       key2: (data) => data.key + "--"
     });
     const res = rec.process(mock);
-    assert.strictEqual(res.smth, 1);
-    assert.strictEqual(res.key, "value");
-    assert.strictEqual(res.category, null);
-    assert.strictEqual(res.key2, "value--");
+    assert.equal(res.smth, 1);
+    assert.equal(res.key, "value");
+    assert.equal(res.category, null);
+    assert.equal(res.key2, "value--");
   });
 
   it("unwrap", () => {
     const stats = new Record("statistics").pick(["price"]);
     const data = new Record("data").unwrap(stats);
     const rec = new Record().unwrap(data);
-    assert.deepStrictEqual(
+    assert.deepEqual(
       rec.process(btc),
       { price: btc.data.statistics.price }
     );
@@ -138,7 +138,7 @@ describe("Record: units", () => {
 
   it("name", () => {
     const record = new Record("data");
-    assert.strictEqual(record.name, "data");
+    assert.equal(record.name, "data");
   });
 });
 
@@ -163,7 +163,7 @@ it("integration", () => {
 
   const rec = new Record().unwrap(data);
   const res = rec.process(btc);
-  assert.deepStrictEqual(res, {
+  assert.deepEqual(res, {
     id: 1,
     name: 'Bitcoin',
     price: 118794,

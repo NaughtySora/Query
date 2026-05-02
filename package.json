@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "NaughtySora <naughtysora@proton.me>",
   "scripts": {
-    "test": "node ./tests/index.js"
+    "test": "c8 node ./tests/index.js"
   },
   "files": [
     "lib/",
@@ -20,5 +20,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NaughtySora/Query.git"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "c8": "^11.0.0",
+    "naughty-util": "^0.6.3",
+    "typescript": "^6.0.3"
   }
 }
